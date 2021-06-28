@@ -1,0 +1,66 @@
+.counterSection {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -moz-box-shadow: 0 0 5px #999;
+  -webkit-box-shadow: 0 0 5px #999;
+  box-shadow: 0 0 5px #999;
+  padding: 40px;
+  position: fixed;
+}
+
+.counterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counterContainer button {
+  padding: 10px;
+  width: 60px;
+  height: 56px;
+}
+
+.inputField {
+  padding: 18px;
+  border: 1px solid #b24242;
+  background-color: #fbe8e8;
+  font-weight: 700;
+  font-size: 14px;
+  max-width: 35px;
+  color: #b24242;
+}
+
+.inputField:focus {
+  outline: none;
+}
+
+.incrementBtn {
+  background-color: #b24242;
+  cursor: pointer;
+  border: 1px solid #b24242;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.decrementBtn {
+  border: 1px solid #b24242;
+  border-radius: 10px 0px 0px 10px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.incrementIcon {
+  color: white;
+  font-weight: 900;
+}
+
+.decrementIcon {
+  color: #b24242;
+  font-weight: 900;
+}
+
+.noteContainer {
+  color: grey;
+  font-size: 10px;
+  margin-top: 20px;
+}
